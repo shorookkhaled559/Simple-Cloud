@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Cloud</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container  mx-auto pt-3">
+        <h1 class="text-center text-3xl my-3">Simble Cloud</h1>
+        <div class=" flex justify-center">
+            <input id="files" type="file" multiple>
+            <button onclick="upload()" class="bg-blue-500 text-white px-4 py-2 mx-2">Upload</button>
+            <button onclick="clearGallery()" class="bg-red-500 text-white px-4 py-2 mx-2">Delete</button>
+        </div>
+        <div  id="gallery" class="flex flex-wrap justify-center gap-4 mt-4">
+      
+        </div>
+
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
