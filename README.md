@@ -8,7 +8,7 @@ It aims to provide a **simple and private mini cloud storage** using **localStor
 ## Live Demo
 
 You can view the live version of the project here:  
-[Live Demo Link]()
+[Live Demo Link](https://shorookkhaled559.github.io/Simple-Cloud/)
 
 ---
 
